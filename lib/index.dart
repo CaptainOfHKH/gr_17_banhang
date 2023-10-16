@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:gr_17_banhang/const/colors.dart';
 import 'package:gr_17_banhang/teamplate/drawer_Screen.dart';
+import 'package:gr_17_banhang/teamplate/profile_screen.dart';
 
 class IndexScreen extends StatelessWidget {
   const IndexScreen({super.key});
@@ -14,7 +15,7 @@ class IndexScreen extends StatelessWidget {
           title: const Text("Team 17"),
           centerTitle: true,
         ),
-        body: const Text("Màn Hình Trang Chủ"),
+        body: const ProfileScreen(),
         drawer: const DrawerScreen(idx: 0));
   }
 }
