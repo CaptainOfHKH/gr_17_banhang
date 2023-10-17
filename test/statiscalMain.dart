@@ -23,9 +23,9 @@ class StatiscalMain extends StatelessWidget{
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('Số lương đơn hàng thành công:$soDonHangThanhCong'),
-            Text('Số lượng đơn hàng hủy:$soDonHangHuy'),
-            Text('Số lượng đơn hàng chờ:$soDonHangCho'),
+            Text('Số đơn hàng thành công:$soDonHangThanhCong'),
+            Text('Số đơn hàng hủy:$soDonHangHuy'),
+            Text('Số đơn hàng chờ:$soDonHangCho'),
             Text('Tổng số tiền chi tiêu:$tongSoTienChiTieu'),
           ],
         ),
