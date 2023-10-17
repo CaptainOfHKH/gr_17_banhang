@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gr_17_banhang/index.dart';
+import 'package:gr_17_banhang/teamplate/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
