@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'App Quản Lý Tài Khoản Cá Nhân',
       theme: ThemeData(
         primarySwatch: Colors.teal,
+        fontFamily: 'Roboto',
       ),
       supportedLocales: {const Locale('en', ' ')},
       debugShowCheckedModeBanner: false,
