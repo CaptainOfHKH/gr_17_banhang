@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:gr_17_banhang/const/colors.dart';
 import 'package:gr_17_banhang/teamplate/drawer_Screen.dart';
 import 'package:gr_17_banhang/teamplate/profile_screen.dart';
 
@@ -12,7 +10,10 @@ class IndexScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Team 17"),
+          title: const Text(
+            "Team 17",
+            style: TextStyle(fontFamily: 'Fz'),
+          ),
           centerTitle: true,
         ),
         body: const Column(
