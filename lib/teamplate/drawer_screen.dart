@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:gr_17_banhang/const/colors.dart';
+import 'package:gr_17_banhang/order_list_screen/order_list_screen1.dart';
 
 class DrawerScreen extends StatelessWidget {
   const DrawerScreen({super.key, required this.idx});
@@ -39,7 +40,9 @@ class DrawerScreen extends StatelessWidget {
               'Danh sách đơn hàng',
             ),
             leading: const Icon(Icons.shopping_bag),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>const OrderList()));
+            },
           ),
         ],
       ),

@@ -15,8 +15,8 @@ class IndexScreen extends StatelessWidget {
           title: const Text("Team 17"),
           centerTitle: true,
         ),
-        body: const Column(
-          children: [
+        body:  Column(
+          children:const  [
             ProfileScreen(),
           ],
         ),
