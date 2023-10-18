@@ -10,7 +10,7 @@ class DrawerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: colorLight,
+      // backgroundColor: colorLight,
       child: ListView(
         children: <Widget>[
           const DrawerHeader(
@@ -21,27 +21,24 @@ class DrawerScreen extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: Text(
+            title: const Text(
               'Thông tin cá nhân',
-              style: TextStyle(color: (idx == 0) ? Colors.blue : Colors.grey),
             ),
             leading: const Icon(Icons.account_circle),
             onTap: () {},
           ),
           ListTile(
-            title: Text(
+            title: const Text(
               'Thống kê',
-              style: TextStyle(color: (idx == 0) ? Colors.blue : Colors.grey),
             ),
-            leading: Icon(Icons.add_chart),
+            leading: const Icon(Icons.add_chart),
             onTap: () {},
           ),
           ListTile(
-            title: Text(
+            title: const Text(
               'Danh sách đơn hàng',
-              style: TextStyle(color: (idx == 0) ? Colors.blue : Colors.grey),
             ),
-            leading: Icon(Icons.shopping_bag),
+            leading: const Icon(Icons.shopping_bag),
             onTap: () {},
           ),
         ],
