@@ -16,10 +16,10 @@ class OrderItem extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children:   [
-          const Text('Ma don hang:AA1',style: TextStyle(fontSize: 20),),
-          const Text('Ngay mua:1/1/2023',style: TextStyle(fontSize: 20),),
-          const Text('Tong tien:1.520.000',style: TextStyle(fontSize: 20),),
-          const Text('Danh sach san pham:abc,xyz,...',style: TextStyle(fontSize: 20),),
+          const Text('Ma don hang:',style: TextStyle(fontSize: 20),),
+          const Text('Ngay mua:',style: TextStyle(fontSize: 20),),
+          const Text('Tong tien:',style: TextStyle(fontSize: 20),),
+          const Text('Danh sach san pham:',style: TextStyle(fontSize: 20),),
           Container(
             margin: EdgeInsets.only(top:10),
             padding: const EdgeInsets.only(top:5,bottom: 5),
