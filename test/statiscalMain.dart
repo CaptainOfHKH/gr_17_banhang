@@ -5,7 +5,7 @@ class StatiscalMain extends StatelessWidget{
   int soDonHangThanhCong=0;
   int soDonHangHuy=0;
   int soDonHangCho=0;
-  int tongSoTienChiTieu=0;
+  int tongSoTienChiTieu=10;
 
   StatiscalMain({super.key});
 
